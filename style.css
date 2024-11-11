@@ -15,16 +15,19 @@ h1,h2,h3,h4,h4 {
     margin: auto;
 }
 .navbar {
+    border: 2px solid brown;
     display: flex;
     font-weight: bold;
     padding: 10px;
     align-items: center;
     gap: 20%;
-    padding-left: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
     cursor: pointer;
 }
-.navbar h2 {
-    color: #1668e3;
+.navbar img {
+    width: 30vw;
+    height: 10vh;
 }
 .navbar-links ul {
     display: flex;
