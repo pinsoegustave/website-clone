@@ -7,5 +7,30 @@
 .container {
     width: 100vw;
     height: 100vh;
-    
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    gap: 20%;
+    padding-left: 25%;
+}
+.navbar h2 {
+    color: rgb(70, 70, 228);
+}
+.navbar-links ul {
+    display: flex;
+    gap: 20px;
+}
+.navbar-links ul li{
+    display: flex;
+    text-decoration: none;
+}
+.navbar-links ul li:first-child {
+    color: red;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px;
 }
