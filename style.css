@@ -16,9 +16,11 @@ h1,h2,h3,h4,h4 {
 }
 .navbar {
     border: 2px solid brown;
+    color: #191e3b;
+    font-weight: bold;
     display: flex;
     justify-content: space-around;
-    font-weight: bold;
+    font-size: 12px;
     padding: 10px;
     align-items: center;
     /* gap: 5%; */
@@ -32,7 +34,7 @@ h1,h2,h3,h4,h4 {
 }
 .navbar-links ul {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 .navbar-links ul li{
     display: flex;
@@ -40,6 +42,21 @@ h1,h2,h3,h4,h4 {
 }
 .navbar-links ul li:first-child {
     border: 1px solid gray;
-    border-radius: 30px;
-    padding: 4px;
+    border-radius: 40000px;
+    font-size: 12px;
+    padding: 2px 4px;
+    text-align: center;
+    line-height: 16px;
+    letter-spacing: normal;
+    gap: 2px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+.navbar-links ul li:first-child:hover {
+    background-color: #ecf4fd;
+    
+}
+.navbar-links ul li svg {
+    color: #1668e3;
+    font-size: 10px;
 }
