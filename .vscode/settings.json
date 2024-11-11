@@ -1,0 +1,5 @@
+{
+    "git.scanRepositories": [
+        "/usr/local/bin/git"
+    ]
+}
