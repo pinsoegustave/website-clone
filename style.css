@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: "Centra No2", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+h1,h2,h3,h4,h4 {
+    font-family: "Centra No2", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 .container {
     width: 100vw;
     height: 100vh;
@@ -19,7 +24,7 @@
     cursor: pointer;
 }
 .navbar h2 {
-    color: rgb(70, 70, 228);
+    color: #1668e3;
 }
 .navbar-links ul {
     display: flex;
